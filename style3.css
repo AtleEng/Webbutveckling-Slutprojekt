@@ -1,14 +1,11 @@
+/* styles överlag*/
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-#contact {
-    padding: 0px 70px 20px;
-    margin-top: 150px;
-}
-
+/* styles i games*/
 .games {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -62,6 +59,7 @@ body {
     font-size: 100%;
 }
 
+/* styles i blogs (har bytt namn till patches)*/
 .blogs {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -113,7 +111,7 @@ body {
     padding: 20px 20px;
 }
 
-/*Header with nav*/
+/*Header med nav + hamburgermenu*/
 /*------------------------------------------------------------------*/
 header {
     background-color: #CFD8DC;
@@ -231,10 +229,6 @@ h1 {
 
 /* styles när skärmen är större än 500*/
 @media only screen and (max-width: 700px) {
-
-
-
-
     .menu__box {
         display: block;
         position: fixed;
@@ -246,5 +240,3 @@ h1 {
         padding: 80px 0;
     }
 }
-
-/*------------------------------------------------------------------*/
